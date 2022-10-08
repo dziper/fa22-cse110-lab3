@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Awesome TODO List Brainstorming Session</title>
+        <meta name="keywords" content="Meeting Minutes, Brainstorming">
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    </head>
+    <header>
+        Header for my brainstorming session
+    </header>
+    <nav>
+        <span>Previous</span>
+        <span>Next</span>
+    </nav>
+    <body>
+        <h1>Awesome TODO List Brainstorming Session</h1>
+        <h2>Agenda</h2>
+            <h3>October 5th, 2022</h3>
+            <div class="agenda-list">
+                <ol>
+                    <li>Cover Agenda</li>
+                    <li>Attendance</li>
+                    <li>Brainstorming</li>
+                    <li>Unfinished Items</li>
+                    <li>Wrap-up</li>
+                    <li>Schedule next <br>meeting</li>
+                </ol>
+            </div>
+        <h2>Attendance</h2>
+            <span>Person A</span>
+            <span>Person B</span>
+            <span>Person C</span>
+            <span>Person D</span>
+            <span>Person E</span>
+        <h2>Unfinished Items</h2>
+            <ul>
+                <li>Come up with <strong>team</strong> <b>name!!!</b></li>
+                <li>Come up with <i>team</i> <em>logo</em></li>
+            </ul>
+        <h2>Brainstorming</h2>
+            <h3>Big Diagram Plan</h3>
+                <img src="assets/diagram.png" width="500" alt="Diagram of Todo list architecture"/>
+                <p>"TODO list app contains lots of cool features"</p>
+            <details>
+                <summary>Architecture: Database, Frontend, Backend, User</summary>
+                Database stores tasks, Frontend displays, backend sends alerts, user is happy
+            </details>
+
+            <a href="https://todoist.com">Reference</a>
+            <hr>
+        <h2>Recording</h2>
+            <audio controls>
+                <source src="assets/MeetingAudio.m4a" type="audio/mp4">
+                Your browser does not support the audio tag.
+            </audio>
+            <br>
+            <video width="320" height="240" controls>
+                <source src="assets/MeetingRecording.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        <h2>Survey</h2>
+            <form>
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+
+                    <input type="radio" id="html" name="present" value="Present">
+                    <label for="present">Present</label><br>
+
+                    <input type="checkbox" id="allow_rec" name="allow_rec" value="Rec">
+                    <label for="allow_rec">Allow Recording?</label><br>
+                    
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date"><br><br>
+                    
+                    <label for="emotion">How are you feeling?:</label>
+                    <input list="emotions" name="emotion" id="emotion">
+
+                    <datalist id="emotions">
+                        <option value="Happy">
+                        <option value="Excited">
+                        <option value="Apprehensive">
+                        <option value="Annoyed">
+                    </datalist>
+
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+
+            <textarea id="Feedback" name="feedback" rows="3" cols="40">
+            Please put feedback about meeting here.
+            </textarea>
+            <br>
+            <button>I'm a button</button>
+
+            <label for="weekday">What day is it?:</label>
+            <input list="weekdays" name="weekday" id="weekday">
+
+            <datalist id="weekdays">
+                <option value="Monday">
+                <option value="Tuesday">
+                <option value="Wednesday">
+                <option value="Thursday">
+                <option value="Friday">
+            </datalist>
+        <hr>
+    </body>
+    <footer>
+        <span>Previous Meeting</span>
+        <span>Next Meeting</span>
+    </footer>
+</html>
+
