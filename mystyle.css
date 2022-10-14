@@ -10,6 +10,30 @@ body {
     background-color: aquamarine;
 }
 
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#attend {
+    color: green;
+}
+
+p::first-line {
+    color: maroon
+}
+
+a[href="https://todoist.com"], h3{
+    color: blue;
+}
+
+fieldset > label {
+    color: blueviolet;
+}
+
+form input {
+    background-color: plum;
+}
+
 h1 {
     color: rgb(0,0,128);
     margin-left: -5px;
@@ -70,7 +94,7 @@ h5 {
     display: none;
 }
 
-.survey {
+div.survey {
     display: grid;
 }
 
@@ -78,6 +102,14 @@ h5 {
     .agenda-list {
         background-color: red;
     }
+}
+
+li + li {
+    font-weight: bold;
+}
+
+br ~ button {
+    background-color: lightblue;
 }
 
 .brainstorming {
