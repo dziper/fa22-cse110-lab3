@@ -3,6 +3,7 @@
     <head>
         <title>Awesome TODO List Brainstorming Session</title>
         <meta name="keywords" content="Meeting Minutes, Brainstorming">
+        <link rel="stylesheet" href="mystyle.css">
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     </head>
     <body>
@@ -39,17 +40,19 @@
                 <li>Come up with <i>team</i> <em>logo</em></li>
             </ul>
         <h2>Brainstorming</h2>
-            <h3>Big Diagram Plan</h3>
-                <img src="assets/diagram.png" width="500" alt="Diagram of Todo list architecture">
-                <p>"TODO list app contains lots of cool features"</p>
-            <details>
-                <summary>Architecture: Database, Frontend, Backend, User</summary>
-                Database stores tasks, Frontend displays, backend sends alerts, user is happy
-            </details>
-            <section>
-                <h5>Reference</h5>
-                <a href="https://todoist.com">Todoist</a>
-            </section>
+            <div class="brainstorming">
+                <h3>Big Diagram Plan</h3>
+                    <img src="assets/diagram.png" width="500" alt="Diagram of Todo list architecture">
+                    <p>"TODO list app contains lots of cool features"</p>
+                <details>
+                    <summary>Architecture: Database, Frontend, Backend, User</summary>
+                    Database stores tasks, Frontend displays, backend sends alerts, user is happy
+                </details>
+                <section>
+                    <h5>Reference</h5>
+                    <a href="https://todoist.com">Todoist</a>
+                </section>
+            </div>
             <hr>
         <h2>Recording</h2>
             <audio controls>
@@ -62,50 +65,52 @@
                 Your browser does not support the video tag.
             </video>
         <h2>Survey</h2>
-            <form>
-                <fieldset>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name"><br>
+            <div class="survey">
+                <form>
+                    <fieldset>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br>
 
-                    <input type="radio" id="present" name="present" value="Present">
-                    <label for="present">Present</label><br>
+                        <input type="radio" id="present" name="present" value="Present">
+                        <label for="present">Present</label><br>
 
-                    <input type="checkbox" id="allow_rec" name="allow_rec" value="Rec">
-                    <label for="allow_rec">Allow Recording?</label><br>
-                    
-                    <label for="date">Date:</label>
-                    <input type="date" id="date" name="date"><br><br>
-                    
-                    <label for="emotion">How are you feeling?:</label>
-                    <input list="emotions" name="emotion" id="emotion">
+                        <input type="checkbox" id="allow_rec" name="allow_rec" value="Rec">
+                        <label for="allow_rec">Allow Recording?</label><br>
+                        
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date"><br><br>
+                        
+                        <label for="emotion">How are you feeling?:</label>
+                        <input list="emotions" name="emotion" id="emotion">
 
-                    <datalist id="emotions">
-                        <option value="Happy">
-                        <option value="Excited">
-                        <option value="Apprehensive">
-                        <option value="Annoyed">
-                    </datalist>
+                        <datalist id="emotions">
+                            <option value="Happy">
+                            <option value="Excited">
+                            <option value="Apprehensive">
+                            <option value="Annoyed">
+                        </datalist>
 
-                    <input type="submit" value="Submit">
-                </fieldset>
-            </form>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
 
-            <textarea id="Feedback" name="feedback" rows="3" cols="40">
-            Please put feedback about meeting here.
-            </textarea>
-            <br>
-            <button>I'm a button</button>
+                <textarea id="Feedback" name="feedback" rows="3" cols="40">
+                Please put feedback about meeting here.
+                </textarea>
+                <br>
+                <button>I'm a button</button>
 
-            <label for="weekday">What day is it?:</label>
-            <input list="weekdays" name="weekday" id="weekday">
+                <label for="weekday">What day is it?:</label>
+                <input list="weekdays" name="weekday" id="weekday">
 
-            <datalist id="weekdays">
-                <option value="Monday">
-                <option value="Tuesday">
-                <option value="Wednesday">
-                <option value="Thursday">
-                <option value="Friday">
-            </datalist>
+                <datalist id="weekdays">
+                    <option value="Monday">
+                    <option value="Tuesday">
+                    <option value="Wednesday">
+                    <option value="Thursday">
+                    <option value="Friday">
+                </datalist>
+            </div>
         <hr>
         <footer>
             <span>Previous Meeting</span>
